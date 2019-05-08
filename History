@@ -1,0 +1,464 @@
+1  sudo apt-get update && sudo apt-get upgrade
+    2  sudo apt-get install software-properties-common
+    3  sudo apt-get update
+    4  sudo apt-get install oracle-java8-installer
+    5  java -version
+    6  javac -version
+    7  java -version
+    8  javac -version
+    9  java -version
+   10  sudo apt-get install oracle-java8-installer
+   11  sudo apt-get update && sudo apt-get upgrade
+   12  sudo apt-get install software-properties-common
+   13  sudo add-apt-repository ppa:webupd8team/java
+   14  sudo apt-get update
+   15  sudo apt-get install oracle-java8-installer
+   16  java -version
+   17  javac -version
+   18  sudo apt update
+   19  sudo apt install maven
+   20  mvn -version
+   21  clear
+   22  wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+   23  echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+   24  sudo apt-get update
+   25  sudo apt-get install jenkins
+   26  sudo systemctl start jenkins
+   27  sudo systemctl status jenkins
+   28  sudo ufw allow 8080
+   29  sudo ufw status
+   30  sudo ufw allow OpenSSH
+   31  sudo ufw enable
+   32  sudo ufw status
+   33  sudo cat /var/lib/jenkins/secrets/initialAdminPasswordsudo cat /var/lib/jenkins/secrets/initialAdminPassword
+   34  sudo systemctl start jenkins
+   35  sudo cat /var/lib/jenkins/secrets/initialAdminPasswordsudo cat /var/lib/jenkins/secrets/initialAdminPassword
+   36  sudo systemctl status jenkins
+   37  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+   38  sudo systemctl start jenkins
+   39  sudo ufw allow 8080
+   40  sudo ufw status
+   41  sudo apt-get install git
+   42  maven -version
+   43  sudo apt-get install maven
+   44  maven -version
+   45  mvn -version
+   46  git -version
+   47  git --version
+   48  mkdir jenkins
+   49  cd jenkins
+   50  pwd
+   51  ifconfig
+   52  claer
+   53  clean
+   54  clear
+   55  cd ../
+   56  ifconfig
+   57  clear
+   58  ifconfig
+   59  ssh maven@10.0.0.6
+   60  cd var
+   61  ls -la
+   62  cd jenkins/
+   63  cd ../
+   64  ifconfig
+   65  cd jenkins
+   66  pwd
+   67  echo $jenkins
+   68  echo $jenkins_Home
+   69  ls
+   70  cd ../
+   71  ls
+   72  cd jenkins/
+   73  pwd
+   74  /home/maven/jenkins
+   75  ssh-keygen
+   76  cd /home/maven/.ssh/id_rsa
+   77  cd /home/maven/.ssh/
+   78  ls
+   79  cd ..
+   80  cd /home/maven
+   81  pwd
+   82  ls
+   83  cd .ssh
+   84  ls
+   85  cat authorized_keys
+   86  ifconfig
+   87  cd ..
+   88  cd
+   89  ssh-keygen
+   90  ls -la
+   91  cd .ssh
+   92  ls -la
+   93  cat id_rsa
+   94  cat id_rsa.pub
+   95  useradd -m -d /var/lib/jenkins/ jenkins
+   96  rmdir jenkins
+   97  ls -la
+   98  rmdir jenkins
+   99  sudo
+  100  sudo useradd -m -d /var/lib/jenkins/ jenkins
+  101  sudo useradd -m -d /var/lib/jenkins/ jenkins1
+  102  cd jenkins1
+  103  cd ./ssh
+  104  cd .ssh
+  105  ls | grep jenkins1
+  106  ls | grep jenkins
+  107  jenkins_id_rsa
+  108  jenkins_id_rsa.pub
+  109  jenkins_id_rsa
+  110  ls | grep jenkins
+  111  jenkins_id_rsa
+  112  ssh-keygen -b 2048 -t rsa
+  113  jedit
+  114  touch key.txt
+  115  ssh-keygen -b 2048 -t rsa
+  116  vi key.txt
+  117  chmod 600 jenkins_id_rsa*
+  118  chmod 600 jenkins1_id_rsa*
+  119  cd ..
+  120  chmod 600 jenkins1_id_rsa*
+  121  sudo chmod 600 jenkins_id_rsa*
+  122  cd .ssh
+  123  ls | grep jenkins
+  124  ls | grep jenkins_id_rsa
+  125  ls | grep jenkins_id_rsa.pub
+  126  chmod 600 jenkins1_id_rsa*
+  127  chmod 600 jenkins_id_rsa*
+  128  ls -la
+  129  ls | grep jenkins | jenkins_id_rsa
+  130  sudo ap-get update
+  131  sudo apt-get -y install mysql-server-5.6
+  132  sudo apt-get update
+  133  sudo apt-get -y install mysql-server-5.6
+  134  sudo apt-get -y install mysql-server-5.7
+  135  mysql_secure_installation
+  136  sudo mysql_secure_installaion
+  137  mysql_secure_installaion
+  138  mysql_secure_installation
+  139  sudo mysql_secure_installation
+  140  mysql -u root -p
+  141  GRANT ALL ON sonar.* TO 'sonar'@'localhost' IDENTIFIED BY 'Sonar@123';
+  142  mysql -u root -p
+  143  sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-5.6.7.zip
+  144  unzip sonarqube-5.6.4.zip
+  145  sudo apt install unzip
+  146  unzip sonarqube-5.6.4.zip
+  147  mv sonarqube-5.6.4 /opt/sonar
+  148  sudo mv sonarqube-5.6.4 /opt/sonar
+  149  sudo mv sonarqube-5.6.4 /opt/Sonar
+  150  sudo mv sonarqube-5.6.4 /opt/sonar
+  151  ll
+  152  sudo unzip sonarqube-5.6.4.zip
+  153  sudo apt-get install sonarqube-5.6.4.zip.zip
+  154  sudo apt-get install unzip
+  155  sudo unzip sonarqube-5.6.4.zip
+  156  cd /opt/sonar/conf/sonar.properties
+  157  /opt/sonar/conf/sonar.properties
+  158  cd
+  159  sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-5.6.4.zip
+  160  unzip sonarqube-5.6.4.zip
+  161  sudo mv sonarqube-5.6.4 /opt/sonar
+  162  sudo vi /opt/sonar/conf/sonar.properties
+  163  sudo /opt/sonar/bin/linux-x86-64/sonar.sh start
+  164  clear
+  165  cd jenkins
+  166  cd /var/lib/jenkins/
+  167  ls
+  168  cd workspace
+  169  ls
+  170  cd New_items
+  171  ls
+  172  clear
+  173  40.114.106.55clear
+  174  clear
+  175  tar-xvzf C:\Users\vvikash\Desktop\nexus-3.16.0-01
+  176  tar -xvzf C:\Users\vvikash\Desktop\nexus-3.16.0-01
+  177  ll
+  178  tar -xvzf nexus-3.16.0-01-unix.tar.gz
+  179  ll
+  180  cd nexus-3.16.0-01/
+  181  cd bin\
+  182  sudo ./nexus run
+  183  clear
+  184  sudo ./nexus run
+  185  ll
+  186  tar -xvzf nexus-3.16.0-01/
+  187  cd nexus-3.16.0-01/
+  188  tar -xvzf nexus-3.16.0-01/
+  189  clear
+  190  cd ..
+  191  ll
+  192  cd nexus-3.16.0-01/
+  193  ll
+  194  cd bin/
+  195  ll
+  196  ./nexus run
+  197  sudo ./nexus run
+  198  ./nexus status
+  199  ./nexus start
+  200  ./nexus status
+  201  clear
+  202  java -version
+  203  sudo apt-et install openjdk-8-jre
+  204  sudo apt-get install jre
+  205  sudo apt-get install -y openjdk-jdk
+  206  cd /usr/local
+  207  sudo mkdir nexus
+  208  sudo wget https://www.sonatype.com/oss-thank-you-tar.gz
+  209  ll
+  210  ls
+  211  ll
+  212  ./nexus status
+  213  sudo ./nexus run
+  214  cd /usr/local
+  215  cd nexus
+  216  sudo tar -xvzf nexus-3.16.0-01-unix.tar.gz
+  217  clear
+  218  java version
+  219  java --vesrsion
+  220  java --version
+  221  java --version
+  222  java -version
+  223  ll
+  224  cd nexus-3.16.0-01/
+  225  cd ..
+  226  sudo rm -rf nexus-3.16.0-01/
+  227  sudo rm -rf sonatype-work/
+  228  ll
+  229  sudo tar -xvzf nexus-3.16.0-01-unix.tar.gz
+  230  ll
+  231  cd nexus-3.16.0-01/
+  232  cd bin
+  233  ./nexus run
+  234  clear
+  235  clear
+  236  sudo ufw allow 8081
+  237  sudo ufw status
+  238  cd nexus-3.16.0-01/
+  239  cd bin/
+  240  ./nexus run
+  241  ./nexus start
+  242  ./nexus status
+  243  cd ..
+  244  cd
+  245  ll
+  246  cd nexus-3.16.0-01/
+  247  ll
+  248  cd bin
+  249  cd /bin
+  250  cd ..
+  251  ll
+  252  ls
+  253  cd
+  254  ll
+  255  sudo apt-get remove nexus-3.16.0-01
+  256  sudo apt-get rm nexus-3.16.0-01
+  257  sudo apt-get remove nexus-3.16.0-01
+  258  sudo rm -rf nexus-3.16.0-01
+  259  ll
+  260  sudo rm -rf sonatype-work/
+  261  ll
+  262  sudo tar -xvzf nexus-3.16.0-01-unix.tar.gz
+  263  ll
+  264  cd nexus-3.16.0-01/
+  265  ll
+  266  cd bin
+  267  ll
+  268  ./nexus start
+  269  ./nexus status
+  270  cd
+  271  sudo ufw status
+  272  cd nexus-3.16.0-01/
+  273  cd bin
+  274  ./nexus run
+  275  cd
+  276  java -version
+  277  cd /home/maven/
+  278  ls -la
+  279  cd nexus-3.16.0-01/
+  280  cd bin
+  281  ls -la
+  282  ./nexus run
+  283  java -version
+  284  ls -la
+  285  cd ../
+  286  ls -la
+  287  cd ../
+  288  ls -la
+  289  sudo apt-get --purge autoremove PACKAGENAME
+  290  sudo apt-get --purge autoremove nexus-3.16.0-01
+  291  ls -la
+  292  sudo apt-get --purge autoremove nexus-3.16.0-01
+  293  sudo apt-get update
+  294  sudo rm -rf nexus-3.16.0-01
+  295  sudo rm -rf sonatype-work/
+  296  ls -la
+  297  sudo tar -xvzf nexus-3.16.0-01-unix.tar.gz
+  298  ls -la
+  299  cd nexus-3.16.0-01/
+  300  cd bin
+  301  ls -;a
+  302  ls -la
+  303  ./nexus run
+  304  cd
+  305  ll
+  306  cd sonatype-work/
+  307  ll
+  308  cd nexus3/
+  309  ll
+  310  cd log
+  311  ll
+  312  java -version
+  313  sudo apt-get upgrade java
+  314  cd
+  315  sudo apt-get upgrade java
+  316  sudo aptitude search jdk
+  317  sudo apt-get purge java
+  318  sudo update-alternatives --remove-all java
+  319  sudo update-alternatives --remove-all javac
+  320  sudo update-alternatives -remove-all javaws
+  321  sudo update-alternatives --remove-all javaws
+  322  sudo rm -rf/usr/lib/jvm/jdk1.8.0
+  323  sudo rm -rf /usr/lib/jvm/jdk1.8.0
+  324  sudo update-alternatives --remove "java" "/usr/lib/jvm/jdk[version]/bin/java"
+  325  sudo update-alternatives --remove "javac" "/usr/lib/jvm/jdk[version]/bin/javac"
+  326  sudo update-alternatives --remove "javaws" "/usr/lib/jvm/jdk[version]/bin/javaws"
+  327  uninstall java-package
+  328  sudo apt-get remove java-package
+  329  sudo apt-get remove --auto-remove java-package
+  330  java -version
+  331  java --version
+  332  sudo add-apt-repository ppa:webupd8team/java
+  333  sudo apt-get update
+  334  sudo apt install oracle-java8-installer
+  335  sudo apt install oracle-java8-set-default
+  336  java --version
+  337  ll
+  338  cd nexus-3.16.0-01/
+  339  cd bin
+  340  sudo ./nexus run
+  341  cd
+  342  clear
+  343  sudo rmdir sonar
+  344  sudo rm -rf sonar
+  345  ls -la
+  346  cd /bin
+  347  ls -la
+  348  cd ..
+  349  sudo /opt/sonar/bin/linux-x86-64/sonar.sh start
+  350  sudo rm -rf sonar
+  351  sudo /opt
+  352  sudo opt
+  353  cd ..
+  354  sudo /opt
+  355  sudo opt/
+  356  cd /opt
+  357  ls -la
+  358  sudo rm -rf sonar
+  359  ls -la
+  360  sudo /opt/sonar/bin/linux-x86-64/sonar.sh start
+  361  sudo apt-get autoremove -y
+  362  sudo apt-get autoclean
+  363  sudo rm -rf /etc/mysql
+  364  sudo find / -iname 'mysql*' -exec rm -rf {} \;
+  365  cd ..
+  366  sudo apt-get update
+  367  sudo apt-get -y upgrade
+  368  java -version
+  369  sudo apt-get -y install mysql-server-5.7
+  370  mysql_secure_installation
+  371  mysql -u root -p
+  372  sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-6.4.zip
+  373  unzip sonarqube-6.4.zip
+  374  sudo unzip sonarqube-6.4.zip
+  375  sudo mv  sonarqube-6.4 /opt/sonar
+  376  cd /opt/sonar/conf
+  377  ls -la
+  378  sudo chmod 777 sonar.properties
+  379  la -la
+  380  vi sonar.properties
+  381  sudo apt-get -y install mysql-server-5.7
+  382  sudo apt-get -y install mysql-server-5.7
+  383  mysql_secure_installation
+  384  clear
+  385  sudo apt-get update
+  386  sudo apt-get -y upgrade
+  387  sudo apt-get -y install mysql-server-5.7
+  388  sudo service jenkins stop
+  389  sudo service jenkins status
+  390  sudo apt-get -y install mysql-server-5.7
+  391  sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins.io/redhat-stable/jenkins.repo
+  392  cd
+  393  sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins.io/redhat-stable/jenkins.repo
+  394  sudo rpm --import http://pkg.jenkins.io/redhat-stable/jenkins.io.key
+  395  yum install jenkins
+  396  service start jenkins
+  397  sudo service start jenkins
+  398  ls
+  399  ls -la
+  400  ll
+  401  la
+  402  cd jenkins
+  403  sudo yum install jenkins
+  404  sudo service start jenkins
+  405  clear
+  406  sudo apt-get update
+  407  java -version
+  408  sudo apt-get -y install mysql-server-5.7
+  409  sudo rm -rf mysql
+  410  sudo apt-get -y install mysql-server-5.7
+  411  sudo apt-get remove --purge mysql-server mysql-client mysql-common -y
+  412  sudo apt-get autoremove -y
+  413  sudo apt-get autoclean
+  414  rm -rf /etc/mysql
+  415  sudo find / -iname 'mysql*' -exec rm -rf {} \;
+  416  rm -rf /opt/sonar/lib/jdbc/mysql
+  417  sudo find / -iname 'mysql*' -exec rm -rf {} \;
+  418  sudo apt-get -y install mysql-server-5.7
+  419  mysql_secure_installation
+  420  mysql -u root -p
+  421  sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-6.4.zip
+  422  sudo unzip sonarqube-6.4.zip
+  423  sudo mv sonarqube-6.4 /opt/sonar
+  424  cd /opt/sonar/conf/
+  425  vi sonar.properties
+  426  sudo /opt/sonar/bin/linux-x86-64/sonar.sh start
+  427  cd
+  428  cd /
+  429  sudo apt-get remove --purge mysql-server mysql-client mysql-common -y
+  430  wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+  431  sudo apt-add-repository "deb https://pkg.jenkins.io/debian-stable binary/"
+  432  sudo apt install jenkins
+  433  sudo apt update
+  434  clear
+  435  cd /var/lib/jenkins/
+  436  ls
+  437  clear
+  438  whereis jenkins
+  439  sudo apt-get remove --purge jenkins
+  440  whereis jenkins
+  441  wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+  442  echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+  443  sudo apt-get update
+  444  sudo apt-get install jenkins
+  445  Apr 19 17:05:02 maven systemd[1]: Failed to start LSB: Start Jenkins at boot time.
+  446  sudo systemctl start jenkins
+  447  sudo add-apt-repository ppa:webupd8team/java
+  448  sudo apt install oracle-java8-installer
+  449  wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+  450  clear
+  451  sudo add-apt-repository ppa:webupd8team/java
+  452  sudo apt install oracle-java8-installer
+  453  wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+  454  sudo apt-add-repository "deb https://pkg.jenkins.io/debian-stable binary/"
+  455  sudo apt install jenkins
+  456  vi /etc/sysconfig/jenkins
+  457  clear
+  458  which jenkins
+  459  whereis jenkins
+  460  whereis maven
+  461  whereis nexus
+  462  whereis sonarqube
+  463  sudo systemctl start jenkins
+  464  sudo systemctl status jenkins.service
